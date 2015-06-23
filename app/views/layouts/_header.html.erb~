@@ -1,0 +1,43 @@
+<div id="container">
+<div class="banner">
+<%=image_tag("art.jpg", :alt=>"user", :class=>"round", :width=>"900px", :height=>"150", :align=>"center")%></div>
+
+<div class="nav">
+
+<tr>
+     <td><%= link_to   'Home  |', root_path%></td>
+	<td><%= link_to   'articles  |', articles_path%></td>
+	<td><%= link_to 'New article', new_article_path %></td>
+
+
+	
+
+</tr>
+</div>
+	<div class="content-wrapper">
+	<div class="col1"> <%= yield %>
+	</div>
+	<div class="col2"> <img src="images/gg.jpeg" width="178" height="100">
+	<p><a href="https://www.google.com/search?client=ubuntu&channel=fs&q=google&ie=utf-8&oe=utf-8/">google</a></p><br>
+
+	<img src="images/new.jpeg" width="178" height="100">
+        
+        <p><a href="https://www.google.com/search?q=articles&client=ubuntu&hs=tDI&channel=fs&source=lnms&tbm=isch&sa=X&ei=ZhRzVdZ-ga1Tk6aB0AI&ved=0CAkQ_AUoAw&biw=1301&bih=673#channel=fs&tbm=isch&q=best+articles+of+2014/">Best Articles</a></p><br>
+
+	<img src="images/best.jpeg" width="178" height="100">
+        
+        <p><a href="https://www.google.com/search?client=ubuntu&channel=fs&q=best+articles+in+urdu&ie=utf-8&oe=utf-8"> Articles in Urdu</a></p>
+
+        	
+</div>
+
+</div></div>
+
+
+
+
+	
+	
+</div>
+
+</div></div>

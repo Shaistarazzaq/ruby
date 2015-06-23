@@ -1,0 +1,5 @@
+<center> 
+<h1>Welcome To My Blog</h1>
+<h3>My blog  abot  Ruby on Rails (ROR)</h3>
+<p> Ruby on Rails, or simply Rails, is an open source web application framework written in Ruby. Rails is a model–view–controller (MVC) framework, providing default structures for a database, a web service, and web pages. It encourages and facilitates the use of web standards such as JSON or XML for data transfer, and HTML, CSS and JavaScript for display and user interfacing.</p>
+<%= link_to 'My Blog', controller: 'articles' %>  </center>
